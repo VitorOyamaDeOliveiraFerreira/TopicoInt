@@ -8,23 +8,25 @@
 
 <body style="background-color: #444;">
 
-    <img src="imagens/Logo.png" width="222" height="222"> <br>
-
-    <!--
-      caso os botoes iniciais sejam fotos
-    <a href="t_log.html"> <img src="imagens/login.png" width="284" height="109">  </a>  <br>
-     
-    <a href="t_cad.html"> <img src="imagens/cadastro.png" width="222" height="113">  </a> <br>
+    <center>
+        <img src="Topicos integradores/Logo.png" width="222" height="222" style="vertical-align: 100%; position: absolute; top: 20%; left: 39%; "> <br>
     
-    <a href="linkC"> <img src="imagens/Login_Google.png" width="284" height="109"> </a> <br>
-    -->
+        <!--
+          caso os botoes iniciais sejam fotos
+        <a href="t_log.html"> <img src="imagens/login.png" width="284" height="109">  </a>  <br>
     
-    <input type="button" value="login" style="background-color: blueviolet;"
-        onclick="window.location.href='t_cad.html'">
-    <input type="button" value="Cadastrar" style="background-color: blueviolet;"
-        onclick="window.location.href='t_log.html'">
-    <input type="button" value="Google" style="background-color: blueviolet;"
-        onclick="window.location.href='t_cad.html'">
+        <a href="t_cad.html"> <img src="imagens/cadastro.png" width="222" height="113">  </a> <br>
+    
+        <a href="linkC"> <img src="imagens/Login_Google.png" width="284" height="109"> </a> <br>
+        -->
+    
+        <input type="button" value="login" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 58%; left: 47.7%;"
+            onclick="window.location.href='t_cad.html'"  > <br>
+        <input type="button" value="Cadastrar" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 62%; left: 46.2%;"
+            onclick="window.location.href='t_log.html'" > <br>
+        <input type="button" value="Google" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 66%; left: 47%;"
+            onclick="window.location.href='t_cad.html'" > <br>
+        </center>
 
 
 </body>
