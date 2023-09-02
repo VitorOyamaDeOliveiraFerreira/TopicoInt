@@ -7,10 +7,14 @@
 </head>
 
 <body style="background-color: #444;">
+    <img src="imagens/Logo.png" width="222" height="222"> <br>
+
     <input type="button" value="voltar" onclick="window.location.href='tela_Ini.html'">
 
     Email <input type="email" style="background-color: blueviolet;" name="email"> <br> <br>
     Senha <input type="password" style="background-color: blueviolet;" name="senha"> <br> <br>
+    <input type="button" style="width: min-content; background-color: darkgreen;" value="Confirmar"
+    onclick="window.location.href='t_princ.html'"> 
 
 
 </body>
