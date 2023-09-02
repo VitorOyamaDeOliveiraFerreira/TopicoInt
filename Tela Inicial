@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tela inicial </title>
+
+</head>
+
+<body style="background-color: #444;">
+
+    <img src="imagens/Logo.png" width="222" height="222"> <br>
+
+    <!--
+      caso os botoes iniciais sejam fotos
+    <a href="t_log.html"> <img src="imagens/login.png" width="284" height="109">  </a>  <br>
+     
+    <a href="t_cad.html"> <img src="imagens/cadastro.png" width="222" height="113">  </a> <br>
+    
+    <a href="linkC"> <img src="imagens/Login_Google.png" width="284" height="109"> </a> <br>
+    -->
+    
+    <input type="button" value="login" style="background-color: blueviolet;"
+        onclick="window.location.href='t_cad.html'">
+    <input type="button" value="Cadastrar" style="background-color: blueviolet;"
+        onclick="window.location.href='t_log.html'">
+    <input type="button" value="Google" style="background-color: blueviolet;"
+        onclick="window.location.href='t_cad.html'">
+
+
+</body>
