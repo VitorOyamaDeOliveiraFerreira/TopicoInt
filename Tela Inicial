@@ -26,7 +26,7 @@
             onclick="window.location.href='t_log.html'" > <br>
         <input type="button" value="Google" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 66%; left: 47%;"
             onclick="window.location.href='t_cad.html'" > <br>
-        </center>
+    </center>
 
 
 </body>
