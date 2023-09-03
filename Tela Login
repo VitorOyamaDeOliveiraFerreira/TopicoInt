@@ -7,7 +7,7 @@
 </head>
 
 <body style="background-color: #444;">
-    <img src="imagens/Logo.png" width="222" height="222"> <br>
+    <img src="Tópicos integradores - Imagens/Logo.png" width="222" height="222"> <br>
 
     <input type="button" value="voltar" onclick="window.location.href='tela_Ini.html'">
 
