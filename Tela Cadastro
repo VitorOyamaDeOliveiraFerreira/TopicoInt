@@ -6,12 +6,11 @@
 </head>
 
 <body style="background-color: #444;">
-    
 
     <div style="padding: 45px 45px; background-color: green; display: grid;;"> <a href="tela_Ini.html"> <img
-                src="imagens/Back.png" width="40" height="49"> </a> </div>
+                src="topic.img/Back.png" width="40" height="49"> </a> </div>
 
-                
+
     <form action="">
         Nome <input type="text" style="background-color: blueviolet;" name="nome"> <br> <br>
         Email <input type="email" style="background-color: blueviolet;" name="email"> <br> <br>
