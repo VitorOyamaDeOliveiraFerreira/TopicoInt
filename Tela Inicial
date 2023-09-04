@@ -3,23 +3,31 @@
 
 <head>
     <title>Tela inicial </title>
-
 </head>
-
 <body style="background-color: #444;">
 
     <center>
-        <img src="topic.img/Logo.png" width="222" height="222" style="vertical-align: 100%; position: absolute; top: 20%; left: 39%; "> <br>
-    
-       
-    
-        <input type="button" value="login" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 58%; left: 45%;"
-            onclick="window.location.href='t_log.html'"  > <br>
-        <input type="button" value="Cadastrar" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 62%; left: 45%; ;"
-            onclick="window.location.href='t_cad.html'" > <br>
-        <input type="button" value="Google" style="background-color: #BA15A0; vertical-align: 50%; border-radius: 13%; position: absolute; top: 66%; left: 45%;"
-            onclick="window.location.href='t_cad.html'" > <br>
+        <img src="topic.img/Logo.png" width="242" height="222"
+            style="vertical-align: 100%; position: absolute; top: 10%; left: 40%; "> 
+
+        <input type="button" value="login"
+            style="background-color: #BA15A0; vertical-align: 50%; border-radius: 45pt; position: absolute; top: 46%; left: 40%;
+             width: 240px;height: 69px;
+             border-color: rgb(53, 4, 99);"
+            onclick="window.location.href='t_log.html'"> <br>
+        <input type="button" value="Cadastrar"
+            style="background-color: #BA15A0; vertical-align: 50%; border-radius: 45pt; position: absolute; top: 58%; left: 40%; ;
+             width: 240px;height: 69px; 
+             border-color: rgb(53, 4, 99); "
+            onclick="window.location.href='t_cad.html'"> <br>
+        <input type="button" value="Continuar com Google"
+            style="background-color: #BA15A0; vertical-align: 50%; border-radius: 45pt; position: absolute; top: 70%; left: 39%;
+             width: 262px;height: 60px;
+             border-color: rgb(53, 4, 99); "
+            onclick="window.location.href='t_log.html'"> <br>
     </center>
+
+
 
 
 </body>
