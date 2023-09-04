@@ -3,19 +3,25 @@
 
 <head>
     <title> Tela login </title>
-
 </head>
-
 <body style="background-color: #444;">
-    <img src="topic.img/Logo.png" width="222" height="222"> <br>
 
-    <input type="button" value="voltar" onclick="window.location.href='tela_Ini.html'">
+    <img src="topic.img/Logo.png" width="242" height="222"
+            style="vertical-align: 100%; position: absolute; top: 5%; left: 40%; "> 
 
-    Email <input type="email" style="background-color: blueviolet;" name="email"> <br> <br>
-    Senha <input type="password" style="background-color: blueviolet;" name="senha"> <br> <br>
-    <input type="button" style="width: min-content; background-color: darkgreen;" value="Confirmar"
+    <div style="background-color:green;
+    width:448px;height:60px;border-radius: 40pt;
+    position: absolute; top: 40%;left: 30%;"> 
+    <a href="tela_Ini.html"> <img src="topic.img/Back.png" width="60px" height="40px"
+    style="position: absolute;left:4%;top: 15%;"> </a>
+
+    <div style="position: absolute;left: 15%;top: 93%;"      > 
+    Email <input type="email" style="background-color: blueviolet;border-radius:40pt;width: 249px;height: 47px ;font-size:20px;" name="email"> <br> <br>
+    Senha <input type="password" style="background-color: blueviolet;border-radius:40pt;width: 249px;height: 47px ;font-size:20px;" name="senha"> <br> <br>
+    <center>  <input type="button" style=" background-color: green;border-radius:40pt;width: 210px;height: 85px ;font-size:20px;" value="Confirmar"
     onclick="window.location.href='t_princ.html'"> 
-
+</center>
+</div>
 
 </body>
 </html>
