@@ -6,20 +6,38 @@
 </head>
 
 <body style="background-color: #444;">
+<center>
 
-    <div style="padding: 45px 45px; background-color: green; display: grid;;"> <a href="tela_Ini.html"> <img
-                src="topic.img/Back.png" width="40" height="49"> </a> </div>
-
-
-    <form action="">
-        Nome <input type="text" style="background-color: blueviolet;" name="nome"> <br> <br>
-        Email <input type="email" style="background-color: blueviolet;" name="email"> <br> <br>
-        Senha <input type="password" style="background-color: blueviolet;" name="senha"> <br> <br>
-        <input type="button" style="width: min-content; background-color: darkgreen;" value="Criar"
-            onclick="window.location.href='t_princ.html'"> 
+    <img src="topic.img/Logo.png" width="242" height="222"
+            style="vertical-align: 100%; position: absolute; top: 5%; left: 40%; "> 
 
 
-    </form>
+    <div style="background-color:green;
+    width:448px;height:60px;border-radius: 40pt;
+    position: absolute; top: 40%;left: 30%;"> 
+    <a href="tela_Ini.html"> <img src="topic.img/Back.png" width="60px" height="40px"
+    style="position: absolute;left:4%;top: 15%;"> </a>
+
+</div>
+
+    <div style="position: absolute;top:50%;left: 34%;"   >  <center> 
+    Nome  :<input type="text" 
+    style="background-color: blueviolet;border-radius:40pt;width: 249px;height: 47px ;font-size:20px; 
+    " > <br> <br>
+    Email :<input type="email" 
+    style="background-color: blueviolet;border-radius:40pt;width: 249px;height: 47px ;font-size:20px; 
+    " 
+    name="email"> <br> <br>
+    Senha :<input type="password" 
+    style="background-color: blueviolet; border-radius:40pt;width: 249px;height: 47px ;font-size:20px;
+    "
+    name="senha"> <br> <br>
+    <input type="button" style="background-color: green; width: 190px;height:60px;border-radius: 40pt;position: absolute;left: 25%;"
+        value="Criar" onclick="window.location.href='t_princ.html'">
+    </center>
+    </div>
+
+    </center>
 </body>
 
 </html>
